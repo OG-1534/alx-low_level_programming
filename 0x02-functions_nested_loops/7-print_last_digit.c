@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - function that prints the last digit of a number
- * @ld
+ * @n: parameter to check
  * Return: Always 0
  */
 int print_last_digit(int n)
