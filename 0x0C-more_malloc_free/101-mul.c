@@ -37,9 +37,9 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * errors - main errors
+ * error - main errors
  */
-void errors(void)
+void error(void)
 {
 	printf("Error\n");
 	exit(98);
