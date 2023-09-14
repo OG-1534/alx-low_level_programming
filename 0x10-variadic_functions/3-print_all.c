@@ -3,17 +3,16 @@
 /**
  * print_all - function that prints anything
  * @format: list of types of arguments
+ *
  * Return: void
  */
 void print_all(const char * const format, ...)
 {
 	int i, stat;
-
 	char *str;
 	va_list ap;
 
 	va_start(ap, format);
-
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
@@ -36,6 +35,7 @@ void print_all(const char * const format, ...)
 				if (str == NULL)
 					str = "(nil";
 				printf("%s", str);
+				stat = 0;
 				break;
 			default:
 				stat = 1;
