@@ -3,9 +3,9 @@ largest_palindrome = 0
 
 for a in range(100, 1000):
     for b in range(100, 1000):
-        prod = a * b
-        if str(prod) == str(prod)[::-1] and prod > largest_palindrome:
-            largest_palindrome = prod
+        product = a * b
+        if str(product) == str(product)[::-1] and product > largest_palindrome:
+            largest_palindrome = product
 
 # save the result in the file
 with open("102-result", "w") as file:
