@@ -1,4 +1,4 @@
-#!/usr/bin/python3i
+#!/usr/bin/python3
 """Defines a function that measures an island's perimeter."""
 
 
